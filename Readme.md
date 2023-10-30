@@ -4,11 +4,12 @@
 The goal of this exercise is to explore pair/group programming and working on someone else's code. Whole process
 is split into 2 parts:
 
-First part consist of pairing up and writing unit tests. All scenarios should be covered without writing a single line
-of an actual source code
+First part consist of pairing up and writing unit tests in file. All scenarios should be covered without writing a single line
+of an actual source code. There's already prepared file `life.spec.js` but if you want to split it up to multiple tests,
+feel free to do so as long as they end with `*.spec.js`
 
 After half an hour your pair should switch places with another pair. Then you should implement the game logo so all
-the test are green!
+the test are green! Main source file is `life.mjs`.
 
 ### J. Conways' Game of Life:
 
