@@ -1,5 +1,5 @@
-import { assert, expect } from 'chai';
-import { Life } from './life.mjs';
+const { assert, expect } = require('chai');
+const { Life } = require('./life');
 
 describe('life', () => {
     let life;

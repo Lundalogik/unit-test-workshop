@@ -1,5 +1,7 @@
-export class Life {
+class Life {
     smoke() {
         return true;
     }
 }
+
+module.exports = { Life };

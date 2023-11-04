@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
-    "test": "mocha --recursive \"./**/*.spec.js\""
+    "test": "mocha --recursive \"./**/*.spec.js\"",
+    "test:watch": "mocha --watch --recursive \"./**/*.spec.js\""
   },
   "repository": {
     "type": "git",
