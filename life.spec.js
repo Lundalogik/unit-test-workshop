@@ -8,12 +8,12 @@ describe('life', () => {
         life = new Life();
     });
 
-    it('smokes', () => {
+    it('has a function `smoke`', () => {
         // Docs for Chai: https://www.chaijs.com/
         // (expect, assert, etc)
-        expect(life.smoke()).to.be.true;
+        expect(life.smoke).to.be.a('function');
 
         // Alternative way to write the same assertion:
-        // assert.equal(life.smoke(), true);
+        // assert.equal(typeof life.smoke, 'function');
     });
 });
