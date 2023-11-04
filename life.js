@@ -1,7 +1,5 @@
 class Life {
-    smoke() {
-        return true;
-    }
+    smoke() {}
 }
 
 module.exports = { Life };
