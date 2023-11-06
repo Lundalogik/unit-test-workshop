@@ -1,6 +1,12 @@
 const { assert, expect } = require('chai');
 const { Life } = require('./life');
 
+// Docs for Mocha: https://mochajs.org/
+// Mocha provides `describe`, `it`, `beforeEach`, `afterEach`, etc.
+
+// Docs for Chai: https://www.chaijs.com/
+// Chai provides `assert`, `expect`, etc.
+
 describe('life', () => {
     let life;
 
@@ -9,8 +15,6 @@ describe('life', () => {
     });
 
     it('has a function `smoke`', () => {
-        // Docs for Chai: https://www.chaijs.com/
-        // (expect, assert, etc)
         expect(life.smoke).to.be.a('function');
 
         // Alternative way to write the same assertion:
